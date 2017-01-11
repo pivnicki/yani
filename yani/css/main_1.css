@@ -1,0 +1,459 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+    font-family: Orbitron;
+    font-size: 13px;
+    
+
+}
+
+.back-img{
+     background-image: url('../img/11.jpg')!important;
+       background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+ul {
+    margin: auto 0;
+    padding: 0 0 0 12px;
+    width: 100%;
+}
+
+#container{
+    width: 85%;
+    margin: 10px auto;
+    overflow: auto;
+    border-radius: 10px;
+
+    box-sizing: border-box;
+    border:  red thick solid;
+}
+
+.orange-main{
+    /*    background: #fb6823;*/
+    background-color: rgba( 255,69,0,0.5 );
+}
+
+.black-main{
+    background: #000000;
+}
+
+.background-img{
+    background: url('../img/bg.jpg') 100% 100% repeat fixed;
+
+}
+
+header#main{
+    padding: 10px;
+
+}
+
+nav {
+    height: 54px;
+    background: #e44900;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    border:  #000000 solid 1px;
+}
+
+nav a {
+    display: block;
+    padding-top: 6px;
+    text-decoration: none;
+    height: 50px;
+    color: #CCC;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color:  #000000;
+}
+
+nav li {
+    float: left;
+    padding: 0 8px 0 12px;
+    list-style-type: none;
+    border-right:  #ff6666 solid 1px; 
+}
+
+.slider {
+    width: 60%;
+    height: 300px;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 14px;
+    padding: 69px;
+    box-sizing: border-box;
+}
+
+header h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #DDD;
+}
+
+main{
+    padding: 20px;
+}
+
+section#main{
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    color: #DDD;
+    font-weight:  normal;
+    font-size: 18px;
+
+
+    padding: 10px;
+    box-sizing:  border-box;
+}
+
+.main-div{
+    border: rgba(202, 102, 66, 0.76) solid 3px;
+    padding: 5px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.main-div h2{
+    padding: 0 0 0 10px;
+}
+
+.main-div p{
+    border: rgba(202, 102, 66, 0.76) solid 3px;
+    padding: 5px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/*#main p {
+    border: rgba(202, 102, 66, 0.76) solid 3px;
+    padding: 5px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+}*/
+
+blockquote cite {
+    display: block;
+    font-style: normal;
+    border: rgba(202, 102, 66, 0.76) solid 3px;
+    margin: 15px 0 0 0;
+    box-sizing:  border-box;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+aside{
+    width: 20%;
+    float: left;
+    text-align: justify;
+    word-spacing: 4.1px;;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+    color:#ccc;
+}
+
+.group:before,
+.group:after{
+    content: "";
+    display: table;
+
+}
+
+.group:after{
+    clear: both;
+}
+
+.group{
+    zoom: 1; 
+}
+
+.slider h1{
+    color:white;
+    margin:  50px 50px;
+}
+
+
+.text {
+    fill: url('#p-fire');
+
+    stroke: #330000;
+    stroke-width: 4px;
+    stroke-opacity: 0.5;
+}
+
+
+svg {
+    position: relative;
+    width: 56%;
+    height: 100%;
+    background-color: rgba( 255,69,0,0.1 );
+    background-size: .2em 100%;
+    font: 6.5em/1 Open Sans, Impact;  
+    text-transform: uppercase;
+    margin: 0 0 0 22%;
+}
+.parallax1{
+    background: url('../img/10.png') 50% 0 repeat fixed;
+    min-height: 250px;
+    padding: 40px 0;
+    color: white;
+    -webkit-font-smoothing:antianiased; 
+    text-rendering: optimizelegibility;
+}
+
+.parallax2{
+    background: url('../img/09.png') 50% 120% repeat fixed;
+    min-height: 250px;
+    padding: 40px 0;
+    color: white;
+    -webkit-font-smoothing:antianiased; 
+    text-rendering: optimizelegibility;
+}
+@-moz-document url-prefix() {
+    svg{
+
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/22/Animated_fire_by_nevit.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 768px 136px;
+        stroke-opacity: 0.5;
+    }
+
+    .text {
+        stroke: #ebf1f3;
+        stroke-width: 4px;
+        stroke-opacity: 0.5;
+    }
+}
+
+
+
+.main-div:hover {
+    background-color: black !important;
+    cursor: pointer;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+
+cite:hover{
+    background-color: black !important;
+    cursor: pointer;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+
+.main-div p:hover{
+    background-color: black !important;
+   
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 600px) {
+    section#main{
+        width:100%;
+        float: none;
+
+        text-align: justify;
+    }
+
+    aside{
+        width: 100%;
+        float: none;
+        text-align: justify;
+        word-spacing: 4.1px;;
+    }
+}
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
